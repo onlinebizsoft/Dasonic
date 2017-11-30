@@ -116,8 +116,8 @@
 # Reserved Field Named, for Leveraging Consistency
 
 - Reserved field names:
-	- id: primary key, int, auto_increment (usually)
-	- parent: int, foreign key to same table.id.  How to have hierarchies.
+	- table_name_id: primary key, int, auto_increment (usually)
+	- parent: int, foreign key to same table.table_name_id.  How to have hierarchies.
   - created_time: Record was created
   - updated_time: Record was updated
 
